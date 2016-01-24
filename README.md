@@ -46,3 +46,7 @@ More realistic production code could look more like:
 
     class User < ActiveRecord::Base; end
     { foo: User.first }.dig(:foo, :bar)
+
+This bug has also been reproduced on:
+`ruby 2.3.0p0 (2015-12-25 revision 53290) [x86_64-linux-gnu]`
+
