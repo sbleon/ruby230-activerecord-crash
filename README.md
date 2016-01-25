@@ -4,8 +4,7 @@ This application crashes Ruby 2.3.0!
 
     git clone git@github.com:sbleon/ruby230-activerecord-crash
     cd ruby230-activerecord-crash
-    bundle install
-    bundle exec ruby crash.rb
+    ruby crash.rb
 
 ## Output
 
